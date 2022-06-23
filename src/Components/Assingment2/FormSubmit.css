@@ -1,0 +1,62 @@
+body {
+    font-size: 1.3rem;
+    background-color: whitesmoke;
+}
+
+.box {
+    margin: 2% 5%;
+}
+
+/* form label styling */
+.label {
+    padding: 20px 10px;
+}
+
+/* form input box styling */
+input {
+    width: 30%;
+    min-width: 100px;
+    margin: 1.2em;
+    border-radius: 10px;
+    border: 2px solid black;
+    padding: 10px;
+}
+
+input:hover {
+    border: 2px solid darkgoldenrod;
+}
+
+/* form submit button styling */
+button {
+    border-radius: 25px;
+    border: 3px solid black;
+    width: 150px;
+    padding: 10px;
+    margin: 5px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: darkgoldenrod;
+}
+
+/* output display table styles */
+td,th {
+    width: 30%;
+    padding: 5px;
+}
+
+table,th {
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+tr:hover {
+    background: darkgoldenrod;
+}
